@@ -12,9 +12,9 @@ const Presentation = () => {
                 <div className='img-profile'>    
                     <img src={profile_image} alt="Marce Melgar" />
                 </div>
-                <div>    
-                    <h1>FrontEnd dev junior</h1>
-                </div>
+            </div>
+            <div className='habilities_1'>   
+                <h1>FrontEnd dev junior</h1>
             </div>
             <div className="habilities_1">
                 <div>

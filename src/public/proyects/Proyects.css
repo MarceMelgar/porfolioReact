@@ -12,8 +12,7 @@
     text-align: center;
 }
 
-.list
-{
+.list {
     margin-block: 25px;
     display: flex;
     flex-direction: column;
@@ -22,9 +21,8 @@
     gap: 21px;
 }
 
-.list a
-{
-    color: #505050;
+.list a {
+    color: #efefef;
     font-size: 23px;
     display: flex;
     flex-direction: row;
@@ -32,7 +30,6 @@
     align-items: center;
 }
 
-.list a:hover
-{
+.list a:hover {
     color: var(--blue);
 }

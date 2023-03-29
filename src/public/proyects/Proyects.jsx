@@ -5,7 +5,7 @@ const Proyects = () => {
   return (
 
       <div className="main-proyects">
-          <h2> Aquí puedes ver algunos de mis proyectos </h2>
+          <h2>Aquí podés ver algunos de mis proyectos</h2>
           <div className="footer-m">
             <div className="list">
               <a href="https://www.kytufina.com/" target="_blank">Kytufina.com (emprendedora)</a>

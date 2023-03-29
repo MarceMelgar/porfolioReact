@@ -13,24 +13,13 @@
     margin-top: 2rem;
 }
 
-.main-m .title
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.main-m h1
-{
-    font-size: 44px;
+.main-m h1 {
+    font-size: 40px;
 }
 
 .main-m h2
 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .profile-image
