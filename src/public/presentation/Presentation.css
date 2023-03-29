@@ -25,12 +25,12 @@
 
 .main-m h1
 {
-    font-size: 50px;
+    font-size: 44px;
 }
 
-.main-m .title strong
+.main-m h2
 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .profile-image
