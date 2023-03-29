@@ -7,11 +7,11 @@ const Proyects = () => {
       <div className="main-proyects">
           <h2> Aquí puedes ver algunos de mis proyectos </h2>
           <div className="footer-m">
-            <div className="left contacto">
-              <a target="_blank" href="https://www.kytufina.com/" className="link"><span>Kytufina.com (emprendedora)</span></a>
+            <div className="list">
+              <a href="https://www.kytufina.com/" target="_blank">Kytufina.com (emprendedora)</a>
               <a href="https://irinaarbo.com/" target='_BLANK'>IrinaArbo.com (emprendedora)</a>
               <a href="https://crezcoluegoexisto.com/" target='_BLANK'>CrezcoLuegoExisto.com (emprendedor)</a>
-              <a href="https://puntoelectrico.com.uy" target='_BLANK'>PuntoElectrico.com.uy (ecommerce de materiales eléctricos)</a>
+              <a href="https://puntoelectrico.com.uy" target='_BLANK'>PuntoElectrico.com.uy (ecommerce)</a>
               <a href="https://toco-y-obligo.vercel.app/" target='_BLANK'>Toco y Obligo - banda de rock</a>
               <a href="https://basic-calculator-ecru.vercel.app/" target='_BLANK'>Calculadora Básica JS</a>
               <a href="https://basic-calculator-ecru.vercel.app/" target='_BLANK'>Piedra, papel o tijera</a>

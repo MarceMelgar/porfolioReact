@@ -6,6 +6,7 @@
     width: auto;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 .mt {

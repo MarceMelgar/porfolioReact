@@ -35,11 +35,11 @@
 
 .sentence_1
 {
-    position: relative;
     padding: 30px 10px;
     width: 390px;
     background-color: #252525;
     border-radius: 0px 60px 60px 0px;
+    margin-top: 100px;
     font-size: 23px;
 }
 
@@ -53,17 +53,6 @@
     align-self: flex-end;
     margin-top: 100px;
     text-align: end;
-}
-
-.sentence_3
-{
-    padding: 30px 10px;
-    width: 390px;
-    background-color: #252525;
-    border: 2px dashed #303030;
-    border-radius: 0px 60px 60px 0px;
-    font-size: 23px;
-    margin-top: 100px;
 }
 
 @media (min-width: 1024px)
