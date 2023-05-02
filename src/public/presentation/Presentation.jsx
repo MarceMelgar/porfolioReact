@@ -15,22 +15,20 @@ const Presentation = () => {
             </div>
             <div className='habilities_1'>   
                 <h1>FrontEnd dev junior</h1>
+                <div className='mb'>
+                    <h2>No soy lo que estás buscando, </h2>
+                    <h3>si querés a alguien que:</h3>
+                    <br/>
+                </div>
             </div>
             <div className="habilities_1">
-                <div>
-                    <div className='mb'>
-                        <h2>No soy lo que estás buscando, </h2>
-                        <h3>si querés a alguien que:</h3>
-                        <br/>
-                    </div>
-                    <div>    
-                        <ul>
-                            <li>❌ no quiera trabajar,</li>
-                            <li>❌ escape de los desafíos, o</li>
-                            <li>❌ no sepa trabajar en equipo.</li>
-                        </ul>
-                    </div>
-                </div> 
+                <div>    
+                    <ul>
+                        <li>❌ no quiera trabajar,</li>
+                        <li>❌ escape de los desafíos, o</li>
+                        <li>❌ no sepa trabajar en equipo.</li>
+                    </ul>
+                </div>
                 <div>
                     <a className='download' download href={cv}>
                             Download CV
