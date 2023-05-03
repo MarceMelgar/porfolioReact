@@ -3,6 +3,7 @@ import Presentation from './public/presentation/Presentation'
 import About_me from './public/about_me/About_me'
 import Technologies from './public/technologies/Technologies'
 import Footer from './public/footer/Footer'
+import Preloader from './public/preloader/Preloader'
 import Proyects from './public/proyects/Proyects'
 
 function App() {
@@ -13,18 +14,19 @@ function App() {
       <Technologies />
       <Proyects />
       <Footer />
-      {/* <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul> */}
+      <Preloader />
+      <ul class="circles">
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+        <li/>
+      </ul>
     </div>
   )
 }

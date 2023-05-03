@@ -1,6 +1,4 @@
 import './About_me.css'
-import react_icon from '../../logo.png'
-
 const About_me = () => {
     return (
         <main className='main-about-me-m'>

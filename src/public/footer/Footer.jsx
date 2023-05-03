@@ -1,5 +1,5 @@
 import './Footer.css'
-import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs'
+import { BsLinkedin, BsGithub} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -16,6 +16,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-/*  className="link" */
