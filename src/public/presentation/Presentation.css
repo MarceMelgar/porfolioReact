@@ -4,13 +4,8 @@
     flex-direction: column;
     justify-content: space-around;
     width: auto;
-    height: 100vh;
     position: relative;
     overflow-x: hidden;
-}
-
-.mt {
-    margin-top: 2rem;
 }
 
 .main-m h1 {
@@ -58,25 +53,22 @@
     align-self: center;
 }
 
-.habilities_1 .icon_down
-{
-    font-size: 45px;
-    margin-top: 10px;
-}
-
-.mt {
-    margin-top: 1rem;
-}
-
-.mb {
-    margin-top: 2rem;
-}
-
 .habilities_1 div
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+}
+
+.habilities_1 div span
+{
+    font-size: 25px;
+}
+
+.habilities_1 .icon_down
+{
+    font-size: 45px;
     margin-top: 10px;
 }
 
@@ -100,9 +92,8 @@
     color: var(--text_alt);
 }
 
-.habilities_1 div span
-{
-    font-size: 25px;
+.mb {
+    margin-top: 2rem;
 }
 
 .download
@@ -132,8 +123,12 @@
     border-color: #000;
 }
 
-@media (min-width: 1024px)
+@media (min-width: 500px)
 {
+    .main-m {
+        height: 100vh;
+    }
+
     .download:hover
     {
         transition: 0.2s;

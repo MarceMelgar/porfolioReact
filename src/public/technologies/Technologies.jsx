@@ -15,11 +15,6 @@ const object_fit = {
   objectFit: 'cover',
 }
 
-const scale = {
-  objectFit: 'fill',
-}
-
-
 const Technologies = () => {
   return (
     <div className='main-technologies-m'>
@@ -28,27 +23,27 @@ const Technologies = () => {
         </div>
         <div className="languages">
 
-          <a href='https://es.wikipedia.org/wiki/HTML5' target="_BLANK">
+          <a href='https://es.wikipedia.org/wiki/HTML5' target="_blank" rel="noreferrer">
             <img src={html5} alt="HTML 5" />
             <span> HTML 5 </span>
           </a>
 
-          <a href='https://es.wikipedia.org/wiki/CSS' target="_BLANK">
+          <a href='https://es.wikipedia.org/wiki/CSS' target="_blank" rel="noreferrer">
             <img src={css3} alt="CSS" />
             <span> CSS </span>
           </a>
 
-          <a href='https://getbootstrap.com/' target="_BLANK">
+          <a href='https://getbootstrap.com/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={bootstrap} alt="Bootstrap" />
             <span> Bootstrap </span>
           </a>
 
-          <a href='https://sass-lang.com/' target="_BLANK">
+          <a href='https://sass-lang.com/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={sass} alt="Sass" />
             <span> Sass </span>
           </a>
 
-          <a href='https://developer.mozilla.org/es/docs/Web/JavaScript' target="_BLANK">
+          <a href='https://developer.mozilla.org/es/docs/Web/JavaScript' target="_blank" rel="noreferrer">
             <img src={js} alt="javascript-logo" />
             <span> JavaScript </span>
           </a>
@@ -58,29 +53,29 @@ const Technologies = () => {
             <span> TypeScript </span>
           </a> */}
 
-          <a href='https://es.reactjs.org/' target="_BLANK">
+          <a href='https://es.reactjs.org/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={react_logo} alt="react.js-logo" />
             <span> React JS </span>
           </a>
 
-          <a href='https://vitejs.dev/' target="_BLANK">
+          <a href='https://vitejs.dev/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={vite} alt="vite-logo" />
             <span> Vite </span>
           </a>
 
-          <a href='https://nodejs.org/es/' target="_BLANK">
+          <a href='https://nodejs.org/es/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={node_js} alt="Node JS" />
             <span> Node JS </span>
           </a>
-          <a href='https://www.firebase.com' target="_BLANK">
+          <a href='https://www.firebase.com' target="_blank" rel="noreferrer">
             <img style={object_fit} src={firebase} alt="Firebase-logo" />
             <span> Firebase </span>
           </a>
-          <a href='https://www.vercel.com' target="_BLANK">
+          <a href='https://www.vercel.com' target="_blank" rel="noreferrer">
             <img style={object_fit} src={vercel} alt="vercel-logo" />
             <span> Vercel </span>
           </a>
-          <a href='https://www.figma.com/' target="_BLANK">
+          <a href='https://www.figma.com/' target="_blank" rel="noreferrer">
             <img style={object_fit} src={figma} alt="Figma" />
             <span> Figma </span>
           </a>

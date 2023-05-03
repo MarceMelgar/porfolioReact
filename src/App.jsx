@@ -13,7 +13,7 @@ function App() {
       <Technologies />
       <Proyects />
       <Footer />
-      <ul class="circles">
+      {/* <ul class="circles">
         <li></li>
         <li></li>
         <li></li>
@@ -24,7 +24,7 @@ function App() {
         <li></li>
         <li></li>
         <li></li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
